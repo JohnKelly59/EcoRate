@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, "ecorate/build")));
+app.use(express.static(path.join(__dirname, "build")));
 
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, "../ecorate/build")));
